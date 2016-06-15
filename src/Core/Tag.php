@@ -47,7 +47,7 @@ class Tag
    * @param          $content
    */
   public function __construct(
-    $element, array $attributes = [], $content = []
+    $element, array $attributes = [], array $content = []
   )
   {
     $this->setTag($element);
